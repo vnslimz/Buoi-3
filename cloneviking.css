@@ -1,0 +1,100 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body, *{
+    margin: 0;
+}
+header{
+    background-color: #e6e6e6;
+    height: 190px;
+    display: flex;
+}
+#Icon{
+    position: relative;
+    left: 350px;
+}
+#Icon img{ 
+    height: 180px;
+}
+#Slogan{
+    font-size: 27px;
+    font-weight: bold;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    bottom: 50px;
+}
+#demolist{
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+}
+.demo{
+    height: 250px;
+    width: 307.2px;
+    overflow: hidden;
+}
+#demolist img{
+    height: 250px;
+    width: 307.2px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+#demolist img:hover{
+    transform: scale(1.2);
+}
+main{
+    background-color: #e2e2e2;
+}
+main>div{
+    background-color: #e6e6e6;
+    font-weight: bold;
+    padding: 50px;
+    font-size: 22px;
+    border-bottom: 1px solid white;
+}
+#Drink{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-size: 20px;
+}
+.Item{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 60px;
+}
+.Item img{
+    height: 120px
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.price{
+    font-size: 18px;
+    color: red;
+}
+.Order{
+    background-color: cyan ;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.Order:hover{
+    background-color: red;
+    color: white;
+}
+#Food{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-size: 20px;
+}
+

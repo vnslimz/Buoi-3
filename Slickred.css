@@ -1,0 +1,76 @@
+html{
+    background-color: #facfcf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#maindiv{
+    width: 960px;
+    margin: 0px auto;
+    position: relative;
+}
+#HandN{
+    border: 5px dotted red
+}
+header{
+    font-size: 60px;
+    padding: 15px 0px;
+}
+header>span{
+    color: white;
+}
+nav{
+    background-color: #420000;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+nav>div{
+    text-align: center;
+    width: 160px;
+    cursor: pointer;
+}
+nav>div:hover{
+    background-color: brown;
+}
+main{
+    display: flex;
+    border: 5px dotted blue;
+}
+#SideBar{
+    width: 204px;
+    background-color: #9d6f68;
+    display: flex;
+    flex-direction: column;
+    color: white
+}
+#SideBar>div{
+    padding: 12px 5px;
+    cursor: pointer;
+}
+#Content{
+    width: 766px;
+}
+#Content>div{
+    margin: 20px 10px;
+}
+#Intro{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Topic{
+    font-weight: bold;
+    font-size: 15px;
+}
+.ContentContent{
+    font-size: 13px;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 12px;
+    border: 5px dotted yellow;
+}

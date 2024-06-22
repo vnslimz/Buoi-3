@@ -1,0 +1,14 @@
+p{
+    padding-top: 30px;
+    background-color: cyan;
+    border: 5px dotted red;
+}
+div{
+    width: 200px;
+    display: inline-block;
+    margin: 25px;
+    border: 25px solid blue;   
+    padding: 25px;
+    background-color: cyan;
+}
+
